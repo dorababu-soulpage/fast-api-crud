@@ -33,7 +33,7 @@ def get_db():
 
 @app.get("/")
 def index():
-    return {"message": "Hello, world!", "version": "1.0"}
+    return {"message": "Hello, world!", "version": "2.0"}
 
 
 @app.post("/items/", response_model=dict)
